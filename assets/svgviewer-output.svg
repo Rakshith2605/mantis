@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#818CF8"/>
+      <stop offset="100%" style="stop-color:#7C3AED"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Rectangle Card -->
+  <rect x="0" y="0" width="400" height="240" rx="24" ry="24" fill="url(#bgGradient)"/>
+  
+  <!-- Logo + Wordmark Group (centered) -->
+  <g transform="translate(200, 120)">
+    <!-- Mantis Logo -->
+    <g fill="#FFFFFF" transform="translate(-70, -20) scale(0.4)">
+      <path d="M10,78 L10,35 L30,55 L50,18 L70,55 L90,35 L90,78 L78,78 L78,50 L58,78 L42,78 L22,50 L22,78 Z"/>
+      <circle cx="42" cy="26" r="5"/>
+      <circle cx="58" cy="26" r="5"/>
+    </g>
+    
+    <!-- Wordmark -->
+    <text x="-18" y="8" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#FFFFFF">mantis</text>
+  </g>
+</svg>
