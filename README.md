@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Mantis Logo" width="80" height="80">
+  <img src="assets/logo.svg" alt="Mantis Logo" width="150" height="150">
 </p>
 
 <h1 align="center">mantis</h1>
